@@ -1,0 +1,10 @@
+commit bf914c00aa7efdd5709c516183326c6169788deb
+tree d46b66002871bd914ee94bc890083954107def55
+parent a3b7d0ed103527509eb8ef53051148f31f45c6ab
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-16 23:24:03 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-16 23:24:03 +0300
+
+    conftest selenoid capabilities fixes for pipeline execution
+
+
+:100644 100644 f6896873d11a755ea7e09675bc5e598e0c2fc5ff 068bb3684f482360c01d95c34beb4f6eb457c8b9 M	tests/conftest.py
