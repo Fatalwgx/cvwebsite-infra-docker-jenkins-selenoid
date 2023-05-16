@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: script-security:1.25,matrix-project:1.11,structs:
+ 1.5;resolution:=optional,job-dsl:1.51;resolution:=optional,job-dsl-co
+ re:1.51;resolution:=optional,workflow-step-api:2.4;resolution:=option
+ al
+Long-Name: Allure Jenkins Plugin
+Compatible-Since-Version: 2.19
+Plugin-Developers: Denis Chernilevsky:dchr:dchr@yandex-team.ru,Artem E
+ roshenko:eroshenkoam:eroshenkoam@qameta.io,Marat Mavlyutov:mavlyutov:
+ mavlyutov@yandex-team.ru,Ivan Kalinin:pupssman:pupssman@yandex-team.r
+ u,Ivan Krutov:vania-pooh:vania-pooh@yandex-team.ru,Dmitry Baev:baev:b
+ aev.dm@gmail.com
+Group-Id: ru.yandex.qatools.allure
+Plugin-Version: 2.30.3
+Jenkins-Version: 1.642.4
+Extension-Name: allure-jenkins-plugin
+Plugin-Class: ru.yandex.qatools.allure.jenkins.AllureReportPlugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Allure+Plugin
+Short-Name: allure-jenkins-plugin
+

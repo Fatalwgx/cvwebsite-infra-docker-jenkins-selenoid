@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1292.v27d8cc3e2602">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2131.vb_9788088fdb_5"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2131.vb_9788088fdb_5">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3659.v582dc37621d8">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;checkout&apos;) {
+            steps {
+                git branch: &apos;master&apos;, url: &apos;https://github.com/Fatalwgx/cv-web-app-fastapi-jinga2-htmx-postgresql/tree/master/automation-tests&apos;
+            }
+        }
+        stage(&apos;test execution&apos;) {
+            steps {
+                sh &apos;pytest ./tests/ --alluredir=allure-results --browser_version=&quot;chrome&quot;&apos;
+            }
+        }
+        stage(&apos;reporting&apos;) {
+            steps {
+                allure includeProperties: false, jdk: &apos;&apos;, results: [[path: &apos;allure-results&apos;]]
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

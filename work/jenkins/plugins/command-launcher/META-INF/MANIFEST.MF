@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Command Agent Launcher Plugin
+Specification-Version: 0.0
+Implementation-Title: Command Agent Launcher Plugin
+Implementation-Version: 100.v2f6722292ee8
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: command-launcher
+Short-Name: command-launcher
+Long-Name: Command Agent Launcher Plugin
+Url: https://github.com/jenkinsci/command-launcher-plugin
+Plugin-Version: 100.v2f6722292ee8
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: script-security:1244.ve463715a_f89c
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/command-launc
+ her-plugin.git
+Plugin-ScmTag: 2f6722292ee8e001746b53bef78b9dcfc04b7496
+Plugin-ScmUrl: https://github.com/jenkinsci/command-launcher-plugin
+Plugin-GitHash: 2f6722292ee8e001746b53bef78b9dcfc04b7496
+Implementation-Build: 2f6722292ee8e001746b53bef78b9dcfc04b7496
+
