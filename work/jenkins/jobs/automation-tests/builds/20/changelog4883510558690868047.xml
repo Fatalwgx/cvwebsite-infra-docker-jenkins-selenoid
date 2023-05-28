@@ -1,0 +1,10 @@
+commit 05e87a5bcedfe44085e36daf12a658d60583b737
+tree 902b65517579c0c1105d73dca1213826a26dc1e9
+parent f73e1b7c74dddff062d839f9149c5fa355349b3b
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-17 00:51:32 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-17 00:51:32 +0300
+
+    selenoid video logging fixes
+
+
+:100644 100644 4f20c59f1e7aa0cc2e3da4951cfeb4fd35468485 0686233c4af00a36a77f161382e832d22c993792 M	lzavodskov/controls/attach.py

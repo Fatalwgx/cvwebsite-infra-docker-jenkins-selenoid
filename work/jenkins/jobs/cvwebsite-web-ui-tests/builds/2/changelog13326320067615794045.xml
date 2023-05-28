@@ -1,0 +1,10 @@
+commit f73e1b7c74dddff062d839f9149c5fa355349b3b
+tree 7275d98f5e1c5bf423306b1430f00f7da4524ab1
+parent bf914c00aa7efdd5709c516183326c6169788deb
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-16 23:45:24 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-16 23:45:24 +0300
+
+    selenoid video logging
+
+
+:100644 100644 068bb3684f482360c01d95c34beb4f6eb457c8b9 334f1b3aff4a61b309955f599022bee7a56a52bb M	tests/conftest.py

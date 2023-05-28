@@ -1,0 +1,10 @@
+commit 80b96efbcd4c4aa3d4ad30f81012f5b9b83780a5
+tree 62ace986a19e9d8d31f798c3b862fd45e40a491f
+parent 28de29194f06f9312932281d4911843241c9cc19
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 22:24:06 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 22:24:06 +0300
+
+    video logging tweaks
+
+
+:100644 100644 5d408e07127f7e7e39226ef7e5107572f572f9b2 e76a8493690d214e94d9fd4401a46dd53ccc3575 M	lzavodskov/controls/attach.py

@@ -1,0 +1,10 @@
+commit 28de29194f06f9312932281d4911843241c9cc19
+tree 1a3ea3831c1cd9587fb8e16d57d85eaeff86f3af
+parent b00d74ea1d1d480b928a59f9ac334c207398a8e4
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 22:13:33 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 22:13:33 +0300
+
+    video logging tweaks
+
+
+:100644 100644 5db26e9e3e7c0cae5660f1d473b5ee1ea129ab3a daf81410146e9fd2ee6143569b1017b67cdcf926 M	tests/conftest.py

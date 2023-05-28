@@ -1,0 +1,10 @@
+commit faf3d39a69c4484407d52e28e33420f86bb8a11a
+tree 39d850cdbcc496cdeef524a3ee11f75ccec991e4
+parent 4cd77960f70f5cf035e00935f1c789dd6aa761a4
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-17 23:08:09 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-17 23:08:09 +0300
+
+    video attachment debugging
+
+
+:100644 100644 e1769bdb31afddbba035be17cff9b9493edee6c0 3660fe3894e613872d9d949a2fca106421502e5e M	tests/test_first.py

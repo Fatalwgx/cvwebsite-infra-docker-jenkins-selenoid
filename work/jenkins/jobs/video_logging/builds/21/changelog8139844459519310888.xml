@@ -1,0 +1,10 @@
+commit db03e555d90f01f8533fda161c547ee5a6b8d090
+tree 1bf85377829be542759841d224893d5b924c9fa5
+parent 280f99430636b9449f9920aa3d2c6ba712580155
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 15:52:27 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 15:52:27 +0300
+
+    video logging tweaks
+
+
+:100644 100644 a454286538b66e697f44aa54d5eec7a0b9769d7e 69373ef3feb230be2d631441bedfd64ca3f8850b M	.gitignore

@@ -1,0 +1,10 @@
+commit c422e27c7bad8dbd0ac9fa444b49470be8fe41b0
+tree 65c421dbc6509f1d3e7ab780ff3cef5f1c3a531d
+parent faf3d39a69c4484407d52e28e33420f86bb8a11a
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 13:40:02 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-21 13:40:02 +0300
+
+    add timing to debug video not attaching
+
+
+:100644 100644 5c94735f7ef2fde275aabd18231e39b2c39a5c7a daf81410146e9fd2ee6143569b1017b67cdcf926 M	tests/conftest.py

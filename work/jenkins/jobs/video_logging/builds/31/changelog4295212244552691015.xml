@@ -1,0 +1,10 @@
+commit fb6aadf51c06a4e262c4caa4ad9e317d182187be
+tree 924e0c0adc0053eddc87ce79543b119dbe9ccb9a
+parent 71c5aa6db4b1a22a416d399d037f4e06563e9766
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-28 22:17:27 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-28 22:17:27 +0300
+
+    split tests into web-ui, api and mobile-web
+
+
+:100644 100644 aed4653ea42b739def047c3cdc0f63fce4e02b2f aed4653ea42b739def047c3cdc0f63fce4e02b2f R100	tests/test_first.py	tests/web-ui/test_first.py
