@@ -4,6 +4,7 @@
     <img src="https://github.com/Fatalwgx/README/blob/master/icons/selenoid.svg" title="selenoid" width="50" height="50"  alt="selenoid"/>
     <img src="https://github.com/Fatalwgx/README/blob/master/icons/jenkins.svg" title="Jenkins" width="50" height="50"  alt="jenkins"/>
     <img src="https://github.com/Fatalwgx/README/blob/master/icons/allure.svg" title="Allure" width="50" height="50"  alt="allure"/>
+    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-256.png" title="Allure" width="50" height="50"  alt="allure"/>
  </p>
 
 ## Summary
@@ -26,3 +27,9 @@ This project is a result of an effort to learn how to setup ci for automation an
    ```
    docker compose up --build
    ```
+
+## Misc
+
+- From your host machine services will be available at locahost+port, but if you want your containers to communicate with eachother, keep in mind that, they need to be in the same network and insted of locahost url, they would use container_name as alias. For example to communicate with selenoid another container would need to reach to "selenoid:4444"
+- It was intended to have Jenkins preconfigured, so there would be no need to setup plugins and pipeline. If you need, you can just drop jenkins' folder and reconfigure it from scratch. There should be first setup unstructions in jenkins' terminal
+- Setup steps were written and tested on WSL2 configuration, so proper Linux environment might encounter some problems, but technically it shouldn't and I have no way to check as of this moment. If you've tried it on linux and whether or not you've encountred any problems - somekind of feedback would be appreciated.
