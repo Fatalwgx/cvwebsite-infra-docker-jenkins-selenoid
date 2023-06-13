@@ -1,0 +1,10 @@
+commit 36b3f96ecc4a48b1b1f7f8793c2d4239bc9347b0
+tree be0e0801a159ad81d34175b3d959b8e36d137b5d
+parent 79d41fdf7f69856461de2f47483e6251613b4139
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:45:52 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:45:52 +0300
+
+    attempt at fixing reruns due to inital run failure, removed sleep from before attachments which was used to debug video logging
+
+
+:100644 100644 2fe7ff10e2e911e6d4c7b3e1055c064f765d8243 8f94de64001868d3fa2d60b06856a19b68c51e61 M	tests/conftest.py

@@ -1,0 +1,10 @@
+commit 779bd021a4e75a54b57a826f6d091cc6f6714999
+tree bc07bf93f12fcfd8fcda161e0c4cd9df0280770b
+parent a01f9ee0b14f7b8bf50971150ae19bf0f3d95ee8
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:15:30 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:15:30 +0300
+
+    selenoid capabilities fixture autouse set to True
+
+
+:100644 100644 b918a7fba3f34c27908bf02bd6fde899e6b472b5 4207df0b38418951919992618393de197efb8ec6 M	tests/conftest.py

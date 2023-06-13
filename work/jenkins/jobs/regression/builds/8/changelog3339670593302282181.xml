@@ -1,0 +1,10 @@
+commit 118406259a8fda6be78c84bd83577a1490932162
+tree b741df3954e3b540424f65366fc5ff39a2962b18
+parent d51b69fc7a7d804ce4c93498dfc223d4dd499562
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 22:54:00 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 22:54:00 +0300
+
+    psycopg2 deprecation dependency issue tweak
+
+
+:100644 100644 af6f75ecf33f47dbbf6a5f73f9efa00b5b20e186 4a0e1528c5d54fb6a9478bdf791c1ad02254b246 M	requirements.txt

@@ -22,21 +22,17 @@
                 git branch: &apos;master&apos;, url: &apos;https://github.com/Fatalwgx/cvwebsite-automation-tests&apos;
             }
         }
-        stage(&apos;set-env&apos;) {
-            steps {
-                sh &apos;echo REMOTE_DRV=http://selenoid:4444/wd/hub &gt; .env&apos;
-            }
-        }
         stage(&apos;test execution&apos;) {
             steps {
                 catchError(buildResult: &apos;UNSTABLE&apos;, message: &apos;uh oh&apos;, stageResult: &apos;UNSTABLE&apos;) {
-                    sh &apos;pytest ./tests/ --alluredir=allure-results&apos;
+                    withEnv([&apos;REMOTE_DRV=http://selenoid:4444/wd/hub&apos;, &apos;WEB_URL=http://api:80&apos;]) {
+                        sh &apos;pytest ./tests/web-ui/ --alluredir=allure-results&apos;
+                    }
                 }
             }
         }
         stage(&apos;reporting&apos;) {
             steps {
-                sh &quot;python3 -c &apos;import time; time.sleep(10)&apos;&quot;
                 allure includeProperties: false, jdk: &apos;&apos;, reportBuildPolicy: &apos;ALWAYS&apos;, results: [[path: &apos;allure-results&apos;]]
             }
         }

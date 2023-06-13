@@ -1,0 +1,11 @@
+commit 0c6fea819b0272fc19e8689ecb74d654586ab68e
+tree 2c9e0ac32243e0e1f03e4d8dc6d779cb8e391555
+parent 118406259a8fda6be78c84bd83577a1490932162
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:06:28 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:06:28 +0300
+
+    postgress url container alias moved to .env, fake name generation fix
+
+
+:100644 100644 6739b0bac07fbabb72a4081cb8f43cbe8204d989 95a406c883fa8b10d1ff44729c266b3e07620b4d M	cvwebsite_tests/model/db/postgres.py
+:100644 100644 64a172932b8bba807920bfcbf9220353d5f7dc17 0fe259370b43a9826725032d83bd3a9a8f0c56ea M	src/baseclasses/user.py

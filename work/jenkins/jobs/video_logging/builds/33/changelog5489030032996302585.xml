@@ -1,0 +1,10 @@
+commit a01f9ee0b14f7b8bf50971150ae19bf0f3d95ee8
+tree 0bdbb0db8f33386c1a86df2a68a8f9f56e19346f
+parent 1cea95af40eae14e8812eeeb666c41bf30724c0a
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:11:36 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:11:36 +0300
+
+    url variable renamed
+
+
+:100644 100644 fde2693ad3c049588b9160cbc34b2658e9d68299 b918a7fba3f34c27908bf02bd6fde899e6b472b5 M	tests/conftest.py

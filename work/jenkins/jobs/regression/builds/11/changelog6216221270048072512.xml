@@ -1,0 +1,14 @@
+commit 79d41fdf7f69856461de2f47483e6251613b4139
+tree 174885fc4a6d3cb874b625a9cfe7aa523980306d
+parent 0c6fea819b0272fc19e8689ecb74d654586ab68e
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:36:43 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 23:36:43 +0300
+
+    fixture overlaps fix, User setters default values changed to None
+
+
+:100644 100644 0fe259370b43a9826725032d83bd3a9a8f0c56ea 9643f81609e9a848f22747d0f6d7d21bc2a8ecc4 M	src/baseclasses/user.py
+:100644 100644 a9ae45249753f50077c6655ffe6f6f0cd9c7d671 2fe7ff10e2e911e6d4c7b3e1055c064f765d8243 M	tests/conftest.py
+:100644 100644 59209f1305c6482b3082362412eb022a22de7a09 8c43e96819af28cc7e4b35937b8394630b7a6aa3 M	tests/web-ui/test_cv.py
+:100644 100644 c9cb25876368c08c58aeab61c90dbcb236013149 86d51b5abeab36a121294eb24472bd09ace1a667 M	tests/web-ui/test_e2e_slot_spin.py
+:100644 100644 d508589ec87a9d474868b8110a8f538e054bde3d 28a9a275dc3501576e3ccb9083040fadfd9b0467 M	tests/web-ui/test_files.py

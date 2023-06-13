@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3659.v582dc37621d8">
+    <parentIds>
+      <string>13</string>
+    </parentIds>
+    <id>14</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3659.v582dc37621d8">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>REMOTE_DRV=http://selenoid:4444/wd/hub</string>
+            <string>WEB_URL=http://api:80</string>
+            <string>API_SERVICE_URL=http://api:80</string>
+            <string>pg_user=postgres</string>
+            <string>pg_password=postgres</string>
+            <string>pg_alias=postgres-container</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1208.v0cc7c6e0da_9e">
+      <startTime>1686602231160</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

@@ -1,0 +1,39 @@
+commit 1cea95af40eae14e8812eeeb666c41bf30724c0a
+tree d9758ed30b21eab931227114f475438846ba8860
+parent 9f873c54b79907c6924aff9911251e1048e6f52c
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:07:14 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-04 10:07:14 +0300
+
+    app url moved to .env to enable swtiching between local runs and selenoid runs
+
+
+:100644 100644 85bd099b0b13583df36933e4bd64473674498afc fde2693ad3c049588b9160cbc34b2658e9d68299 M	tests/conftest.py
+:100644 100644 22e68c10575484075befa08407d113696453fc8e 55a03fcfc1f74002ede29fe490b2cefd38d82f12 M	tests/web-ui/test_cv_page.py
+commit 9f873c54b79907c6924aff9911251e1048e6f52c
+tree 4f0e2fc5c14089a49c2c12ab44f4bcc11ecac114
+parent 6cd1b590b4d68e5665cec99829b39d95320cadcc
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-03 11:06:11 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-03 11:06:11 +0300
+
+    driver config and execution tests
+
+
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 5fc6fbed2247fd61a331ba5b593c2a70698899e4 M	cvwebsite_tests/model/app.py
+:000000 100644 0000000000000000000000000000000000000000 aa779acaf4519ceb161139da5aad66f00d4edbc7 A	cvwebsite_tests/model/pages/cv_page.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	cvwebsite_tests/model/pages/files_page.py
+:000000 100644 0000000000000000000000000000000000000000 22e68c10575484075befa08407d113696453fc8e A	tests/web-ui/test_cv_page.py
+:100644 000000 aed4653ea42b739def047c3cdc0f63fce4e02b2f 0000000000000000000000000000000000000000 D	tests/web-ui/test_first.py
+commit 6cd1b590b4d68e5665cec99829b39d95320cadcc
+tree a615e11ba0487758929e3ed28e73c31592051a99
+parent fb6aadf51c06a4e262c4caa4ad9e317d182187be
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-05-28 22:48:24 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-05-28 22:48:24 +0300
+
+    lzavodskov directory renamed to cvwebsite_tests, and it's subdirectories and components were rearranged and paths relating to this directory fixed
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	cvwebsite_tests/model/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	cvwebsite_tests/model/app.py
+:100644 100644 a640581205b3dbf12db601cf5462ffb51c20f918 a640581205b3dbf12db601cf5462ffb51c20f918 R100	lzavodskov/controls/attach.py	cvwebsite_tests/model/controls/attach.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	cvwebsite_tests/model/pages/__init__.py
+:100644 100644 daf81410146e9fd2ee6143569b1017b67cdcf926 85bd099b0b13583df36933e4bd64473674498afc M	tests/conftest.py

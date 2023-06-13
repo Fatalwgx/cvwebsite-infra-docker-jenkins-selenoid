@@ -1,0 +1,1244 @@
+Started by user [8mha:////4Maezfk0JbHDzak4BfSdZmgwP4IA8xVqOrqfKRXTMeqbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KRo0YmmwtC2y6yPDiNjzM5sfeXF5Vp/3whR1HckqUrwAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Hpqw+HJtSJOYxqblEvzq25+39uAue/8cP6aI45kCxT9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IoS6Q6HEmADU0+DF7n0QTp/dLGB5vjQX3rtbzxAHVkqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/jenkins_home/workspace/web-ui automation tests
+[8mha:////4N7pT5rmqmbLvcSM/83ZQbUOFRSgurB9IZiC2xYdP+2yAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HieURhCKaY8XeTlYcVKy4MN28X/fW/Ye6Dg9+NNb90uAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4G7vxwlo8zq62UeiqVhB7jY1RFzjOZMgZSrhtusUQqxXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (checkout)
+[8mha:////4LFsx75kGytnbGiDi+2IyQdeVDV2QftKxw5qohZPvFJrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/web-ui automation tests/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Fatalwgx/cvwebsite-automation-tests # timeout=10
+Fetching upstream changes from https://github.com/Fatalwgx/cvwebsite-automation-tests
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Fatalwgx/cvwebsite-automation-tests +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d51b69fc7a7d804ce4c93498dfc223d4dd499562 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d51b69fc7a7d804ce4c93498dfc223d4dd499562 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master d51b69fc7a7d804ce4c93498dfc223d4dd499562 # timeout=10
+Commit message: "Merge branch 'master' of https://github.com/Fatalwgx/cvwebsite-automation-tests"
+ > git rev-list --no-walk d51b69fc7a7d804ce4c93498dfc223d4dd499562 # timeout=10
+[8mha:////4OTvoH0qmSkW0AUK+EqLJib4CDbM0uMYmDNBmnGEyOgqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4M+bWZwGAe5LdF6zWKAg50C+4LHxMjq7KswGa3lAQsnrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Gz4pYzjVO1aPtie40eio3FcL+piICEb2nKXwcZEPyjXAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4ObIJr3HdheyVxK+2JTu/ob8/daHGKVQEe3DD/LeCEC7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (test execution)
+[8mha:////4OObxBGyuy1JZHcZaNho0Is0ror225rCMqadiaP4QzAuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] catchError
+[8mha:////4Py6D/CR3LLlm1zFJXvEFDJC4JGLqhbLlJeGXBLwMXu5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4CWE7Mw4OZfT8tQFVOl+mVfJcQAw4loijL+Wlp9O0j7gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4Be7rTsGO97Ny84DuDnr5Tkvuy0aDdXq68b3AnE5HrfiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4IZ8Vqo3iN4RFK0UuvqBzt8rnePiRkqoBHTpHHq1o0R/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ pip install -r requirements.txt
+Requirement already satisfied: pytest in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 1)) (7.3.2)
+Collecting allure-pytest==2.12.0
+  Downloading allure_pytest-2.12.0-py3-none-any.whl (10.0 kB)
+Requirement already satisfied: selene>=2.0.0b5 in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 3)) (2.0.0rc2)
+Collecting python-dotenv==0.20.0
+  Downloading python_dotenv-0.20.0-py3-none-any.whl (17 kB)
+Requirement already satisfied: pydantic in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 5)) (1.10.9)
+Requirement already satisfied: faker in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 6)) (18.10.1)
+Requirement already satisfied: sqlalchemy in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 7)) (2.0.16)
+Collecting psycopg2
+  Downloading psycopg2-2.9.6.tar.gz (383 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_f5e69c0772e34e1785811fa9be0f83b9/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_f5e69c0772e34e1785811fa9be0f83b9/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-6weyotge
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_f5e69c0772e34e1785811fa9be0f83b9/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-6weyotge/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-6weyotge/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-6weyotge/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-6weyotge/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-6weyotge/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/af/c4/5726cddb53fe52f0e839eb3da04322364f14493217ebd5818cc5e4c948a5/psycopg2-2.9.6.tar.gz#sha256=f15158418fd826831b28585e2ab48ed8df2d0d98f502a2b4fe619e7d5ca29011 (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.5.tar.gz (384 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_8591f3dc9c0542268af7eb735e2dcba1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_8591f3dc9c0542268af7eb735e2dcba1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-sknroyct
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_8591f3dc9c0542268af7eb735e2dcba1/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-sknroyct/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-sknroyct/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-sknroyct/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-sknroyct/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-sknroyct/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/89/d6/cd8c46417e0f7a16b4b0fc321f4ab676a59250d08fce5b64921897fb07cc/psycopg2-2.9.5.tar.gz#sha256=a5246d2e683a972e2187a8714b5c2cf8156c064629f9a9b1a873c1730d9e245a (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.4.tar.gz (384 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_06ebb98fedfc46d895365fbcd9cf3af8/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_06ebb98fedfc46d895365fbcd9cf3af8/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-8pzyvhiu
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_06ebb98fedfc46d895365fbcd9cf3af8/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-8pzyvhiu/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-8pzyvhiu/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-8pzyvhiu/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-8pzyvhiu/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-8pzyvhiu/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/8d/d7/277e23b708a0429b6b3d50e86e52b791156dfbfa81917d34ef6d7b435b84/psycopg2-2.9.4.tar.gz#sha256=d529926254e093a1b669f692a3aa50069bc71faf5b0ecd91686a78f62767d52f (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.3.tar.gz (380 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_eff61e4db03c4ac4bf8749eb9068a080/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_eff61e4db03c4ac4bf8749eb9068a080/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-qowe8hej
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_eff61e4db03c4ac4bf8749eb9068a080/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-qowe8hej/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-qowe8hej/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-qowe8hej/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-qowe8hej/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-qowe8hej/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/d1/1e/b450599a27b1809bccbd4e369f397cb18dc56b875778d961f9ae180b54b7/psycopg2-2.9.3.tar.gz#sha256=8e841d1bf3434da985cc5ef13e6f75c8981ced601fd70cc6bf33351b91562981 (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.2.tar.gz (380 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_6c759470009a4a139b20bd8fdc1786f2/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_6c759470009a4a139b20bd8fdc1786f2/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-7yqg6eqf
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_6c759470009a4a139b20bd8fdc1786f2/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-7yqg6eqf/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-7yqg6eqf/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-7yqg6eqf/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-7yqg6eqf/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-7yqg6eqf/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/33/ed/79434011d773e5ea4c51262f6ebfb86680c2908d7677f31ebccd5aa9f1b3/psycopg2-2.9.2.tar.gz#sha256=a84da9fa891848e0270e8e04dcca073bc9046441eeb47069f5c0e36783debbea (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.1.tar.gz (379 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_62c04e65cb7849e8bddb8acb8f0935fe/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_62c04e65cb7849e8bddb8acb8f0935fe/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-epc4rlr2
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_62c04e65cb7849e8bddb8acb8f0935fe/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-epc4rlr2/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-epc4rlr2/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-epc4rlr2/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-epc4rlr2/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-epc4rlr2/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/aa/8a/7c80e7e44fb1b4277e89bd9ca509aefdd4dd1b2c547c6f293afe9f7ffd04/psycopg2-2.9.1.tar.gz#sha256=de5303a6f1d0a7a34b9d40e4d3bef684ccc44a49bbe3eb85e3c0bffb4a131b7c (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.9.tar.gz (379 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_19f55346c92a490f8bd7782c776d4c8e/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_19f55346c92a490f8bd7782c776d4c8e/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-d1z5sb90
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_19f55346c92a490f8bd7782c776d4c8e/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-d1z5sb90/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-d1z5sb90/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-d1z5sb90/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-d1z5sb90/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-d1z5sb90/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/6c/79/6df8af2405e2aa60732c47757453fc7fa4af5c90a1796b3392ef892d3a52/psycopg2-2.9.tar.gz#sha256=b12073fdf2002e828e5921be2c39ff9c6eab361c5c0bd6c529619fc23677accc (from https://pypi.org/simple/psycopg2/) (requires-python:>=3.6). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_2bc486cb1a1347cf9a41280c4fbe67eb/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_2bc486cb1a1347cf9a41280c4fbe67eb/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ivjf2y31
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_2bc486cb1a1347cf9a41280c4fbe67eb/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ivjf2y31/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ivjf2y31/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ivjf2y31/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ivjf2y31/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ivjf2y31/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/fd/ae/98cb7a0cbb1d748ee547b058b14604bd0e9bf285a8e0cc5d148f8a8a952e/psycopg2-2.8.6.tar.gz#sha256=fb23f6c71107c37fd667cb4ea363ddeb936b348bbd6449278eb92c189699f543 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.5.tar.gz (380 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_db43414d72a747d987b4860a936bb996/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_db43414d72a747d987b4860a936bb996/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-lxmbrklg
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_db43414d72a747d987b4860a936bb996/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-lxmbrklg/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-lxmbrklg/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-lxmbrklg/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-lxmbrklg/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-lxmbrklg/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <https://www.psycopg.org/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/a8/8f/1c5690eebf148d1d1554fc00ccf9101e134636553dbb75bdfef4f85d7647/psycopg2-2.8.5.tar.gz#sha256=f7d46240f7a1ae1dd95aab38bd74f7428d46531f69219954266d669da60c0818 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.4.tar.gz (377 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_f524f1b2b353472f8f1391817a5b3319/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_f524f1b2b353472f8f1391817a5b3319/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-jc0xgmfk
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_f524f1b2b353472f8f1391817a5b3319/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-jc0xgmfk/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-jc0xgmfk/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-jc0xgmfk/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-jc0xgmfk/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-jc0xgmfk/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/84/d7/6a93c99b5ba4d4d22daa3928b983cec66df4536ca50b22ce5dcac65e4e71/psycopg2-2.8.4.tar.gz#sha256=f898e5cc0a662a9e12bde6f931263a1bbd350cfb18e1d5336a12927851825bb6 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.3.tar.gz (377 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_0558326e11694145a516807431e8012b/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_0558326e11694145a516807431e8012b/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-4hm0gt0_
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_0558326e11694145a516807431e8012b/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-4hm0gt0_/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-4hm0gt0_/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-4hm0gt0_/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-4hm0gt0_/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-4hm0gt0_/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/5c/1c/6997288da181277a0c29bc39a5f9143ff20b8c99f2a7d059cfb55163e165/psycopg2-2.8.3.tar.gz#sha256=897a6e838319b4bf648a574afb6cabcb17d0488f8c7195100d48d872419f4457 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.2.tar.gz (368 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_3147d818dcb2479b85ad2834a62f15d0/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_3147d818dcb2479b85ad2834a62f15d0/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-m6kg1erg
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_3147d818dcb2479b85ad2834a62f15d0/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-m6kg1erg/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-m6kg1erg/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-m6kg1erg/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-m6kg1erg/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-m6kg1erg/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/23/7e/93c325482c328619870b6cd09370f6dbe1148283daca65115cd63642e60f/psycopg2-2.8.2.tar.gz#sha256=5cacf21b6f813c239f100ef78a4132056f93a5940219ec25d2ef833cbeb05588 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.1.tar.gz (367 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_671979cee3584995af8685bbe871538f/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_671979cee3584995af8685bbe871538f/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ljaopdzg
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_671979cee3584995af8685bbe871538f/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ljaopdzg/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ljaopdzg/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ljaopdzg/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ljaopdzg/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ljaopdzg/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/52/be/f898e712f5f08131d651a62754fca82a1deb42e4e9889ad01932f770a2be/psycopg2-2.8.1.tar.gz#sha256=b4a475ce87eabc0607e068a3c704d0aa0820237ed78d493b8e2d880eb73cd7fe (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.8.tar.gz (367 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_735483da21ae410680123001c846afa1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_735483da21ae410680123001c846afa1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-gomobq8k
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_735483da21ae410680123001c846afa1/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-gomobq8k/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-gomobq8k/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-gomobq8k/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-gomobq8k/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-gomobq8k/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/c7/ca/75236b17f1b951950ffc55d657c5aa408d3d0327a1b6c4c0f7cb16ef7e7b/psycopg2-2.8.tar.gz#sha256=49c5838d90e83217909db3789d30a105385b5e696ec5168cda645546c542f35a (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.7.tar.gz (427 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_8c3b6c259b884bbf8da33697084ada8c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_8c3b6c259b884bbf8da33697084ada8c/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ybreeris
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_8c3b6c259b884bbf8da33697084ada8c/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ybreeris/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ybreeris/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ybreeris/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ybreeris/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ybreeris/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/63/54/c039eb0f46f9a9406b59a638415c2012ad7be9b4b97bfddb1f48c280df3a/psycopg2-2.7.7.tar.gz#sha256=f4526d078aedd5187d0508aa5f9a01eae6a48a470ed678406da94b4cd6524b7e (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.6.1.tar.gz (427 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_ed65897c07c94faca7e0a6c06158e210/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_ed65897c07c94faca7e0a6c06158e210/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-dzu1ee8t
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_ed65897c07c94faca7e0a6c06158e210/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-dzu1ee8t/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-dzu1ee8t/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-dzu1ee8t/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-dzu1ee8t/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-dzu1ee8t/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/c0/07/93573b97ed61b6fb907c8439bf58f09957564cf7c39612cef36c547e68c6/psycopg2-2.7.6.1.tar.gz#sha256=27959abe64ca1fc6d8cd11a71a1f421d8287831a3262bd4cacd43bbf43cc3c82 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.6.tar.gz (427 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_dbad9fcfaef54189be34d757def5ea6a/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_dbad9fcfaef54189be34d757def5ea6a/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-3trcs3qg
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_dbad9fcfaef54189be34d757def5ea6a/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-3trcs3qg/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-3trcs3qg/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-3trcs3qg/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-3trcs3qg/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-3trcs3qg/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/94/09/2f1fae36d83e2315b90ee91738d01baf8af8c945726bf4b4708fcec3256d/psycopg2-2.7.6.tar.gz#sha256=4a658550b0bcb259e97f77f2dc93ed6b108fe2eda963a9e6fc8b48040d542ec2 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.5.tar.gz (426 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_f03adc7058b6491991f675ba8f6ca831/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_f03adc7058b6491991f675ba8f6ca831/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-5kdk8qid
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_f03adc7058b6491991f675ba8f6ca831/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-5kdk8qid/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-5kdk8qid/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-5kdk8qid/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-5kdk8qid/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-5kdk8qid/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/b2/c1/7bf6c464e903ffc4f3f5907c389e5a4199666bf57f6cd6bf46c17912a1f9/psycopg2-2.7.5.tar.gz#sha256=eccf962d41ca46e6326b97c8fe0a6687b58dfc1a5f6540ed071ff1474cea749e (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.4.tar.gz (425 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_05c77b6c0c7241469db69fff88be0a63/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_05c77b6c0c7241469db69fff88be0a63/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-xavyglkr
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_05c77b6c0c7241469db69fff88be0a63/
+    Complete output (23 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-xavyglkr/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-xavyglkr/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-xavyglkr/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-xavyglkr/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-xavyglkr/psycopg2.egg-info/SOURCES.txt'
+    
+    Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    If you prefer to avoid building psycopg2 from source, please install the PyPI
+    'psycopg2-binary' package instead.
+    
+    For further information please check the 'doc/src/install.rst' file (also at
+    <http://initd.org/psycopg/docs/install.html>).
+    
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/74/83/51580322ed0e82cba7ad8e0af590b8fb2cf11bd5aaa1ed872661bd36f462/psycopg2-2.7.4.tar.gz#sha256=8bf51191d60f6987482ef0cfe8511bbf4877a5aa7f313d7b488b53189cf26209 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.3.2.tar.gz (425 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_cfef6f776d2f40e3ae193a99a97d4dbc/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_cfef6f776d2f40e3ae193a99a97d4dbc/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-mt0o9_vg
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_cfef6f776d2f40e3ae193a99a97d4dbc/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-mt0o9_vg/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-mt0o9_vg/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-mt0o9_vg/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-mt0o9_vg/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-mt0o9_vg/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/dd/47/000b405d73ca22980684fd7bd3318690cc03cfa3b2ae1c5b7fff8050b28a/psycopg2-2.7.3.2.tar.gz#sha256=5c3213be557d0468f9df8fe2487eaf2990d9799202c5ff5cb8d394d09fad9b2a (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.3.1.tar.gz (425 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_67c81ba4f3f84d7f9f3ee04f10ef6dca/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_67c81ba4f3f84d7f9f3ee04f10ef6dca/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-3s9du99q
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_67c81ba4f3f84d7f9f3ee04f10ef6dca/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-3s9du99q/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-3s9du99q/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-3s9du99q/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-3s9du99q/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-3s9du99q/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/6b/fb/15c687eda2f925f0ff59373063fdb408471b4284714a7761daaa65c01f15/psycopg2-2.7.3.1.tar.gz#sha256=9b7b16e26448b43cf167f785d8b5345007731ebf153a510e12dae826800caa65 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.3.tar.gz (425 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_972fe43a45bb4f2f8c950581a9bdc34f/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_972fe43a45bb4f2f8c950581a9bdc34f/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-j6xuk0gz
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_972fe43a45bb4f2f8c950581a9bdc34f/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-j6xuk0gz/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-j6xuk0gz/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-j6xuk0gz/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-j6xuk0gz/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-j6xuk0gz/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/98/99/33ca02c4bc3ed1bd9ceab5614bda2e6d1d31e61ec58345b9feece238c38a/psycopg2-2.7.3.tar.gz#sha256=c9bd49848556d04093909faec017c3675efabf78c2b7f383bf7c43ba18324ac8 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.2.tar.gz (424 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_6063468330134e229454c38120d08baf/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_6063468330134e229454c38120d08baf/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-j5piym8f
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_6063468330134e229454c38120d08baf/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-j5piym8f/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-j5piym8f/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-j5piym8f/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-j5piym8f/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-j5piym8f/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/d0/66/61c1b34ea8da8f95d99676e6803ccad83abef3ac90df145b45033696f3d2/psycopg2-2.7.2.tar.gz#sha256=3767f40bb35713ccc75dbcff80bf228a75e080d6b98c78afd5fb9aa84682a9f4 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.1.tar.gz (421 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_ae5d803f1b6340aba8459d99d50dcf9a/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_ae5d803f1b6340aba8459d99d50dcf9a/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-wyqjkvl0
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_ae5d803f1b6340aba8459d99d50dcf9a/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-wyqjkvl0/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-wyqjkvl0/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-wyqjkvl0/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-wyqjkvl0/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-wyqjkvl0/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/f8/e9/5793369ce8a41bf5467623ded8d59a434dfef9c136351aca4e70c2657ba0/psycopg2-2.7.1.tar.gz#sha256=86c9355f5374b008c8479bc00023b295c07d508f7c3b91dbd2e74f8925b1d9c6 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.7.tar.gz (421 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_3f75c4f21c1541dcb71b20c5cedbde3e/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_3f75c4f21c1541dcb71b20c5cedbde3e/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-v6861up_
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_3f75c4f21c1541dcb71b20c5cedbde3e/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-v6861up_/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-v6861up_/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-v6861up_/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-v6861up_/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-v6861up_/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/62/ca/0a479c9664526e86c2913a7ad593586eeb86b428b7e629e7c7b6b69e3cb7/psycopg2-2.7.tar.gz#sha256=ceadecf660ad4f7a31ea5baef30a7351add8626f9fd3daaafabb9a9e549f3f9a (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.6.2.tar.gz (376 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_72d6c3291d1e46378446e57ad50995d8/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_72d6c3291d1e46378446e57ad50995d8/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-rstdy3go
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_72d6c3291d1e46378446e57ad50995d8/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-rstdy3go/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-rstdy3go/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-rstdy3go/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-rstdy3go/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-rstdy3go/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/7b/a8/dc2d50a6f37c157459cd18bab381c8e6134b9381b50fbe969997b2ae7dbc/psycopg2-2.6.2.tar.gz#sha256=70490e12ed9c5c818ecd85d185d363335cc8a8cbf7212e3c185431c79ff8c05c (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.6.1.tar.gz (371 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_ff228d8929994e22978127f61b6cf6ec/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_ff228d8929994e22978127f61b6cf6ec/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-9yq64rdr
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_ff228d8929994e22978127f61b6cf6ec/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-9yq64rdr/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-9yq64rdr/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-9yq64rdr/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-9yq64rdr/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-9yq64rdr/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/86/fd/cc8315be63a41fe000cce20482a917e874cdc1151e62cb0141f5e55f711e/psycopg2-2.6.1.tar.gz#sha256=6acf9abbbe757ef75dc2ecd9d91ba749547941abaffbe69ff2086a9e37d4904c (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.6.tar.gz (367 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_99fc71fdda914d82be94268edd274a1e/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_99fc71fdda914d82be94268edd274a1e/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-6r4bwadk
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_99fc71fdda914d82be94268edd274a1e/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-6r4bwadk/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-6r4bwadk/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-6r4bwadk/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-6r4bwadk/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-6r4bwadk/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/dd/c7/9016ff8ff69da269b1848276eebfb264af5badf6b38caad805426771f04d/psycopg2-2.6.tar.gz#sha256=c00afecb302a99a4f83dec9b055c4d1cc196926d62c8db015d68432df8118ca8 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.5.tar.gz (779 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_a6eacfcf7a8e4d4d8976335f58d8ad25/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_a6eacfcf7a8e4d4d8976335f58d8ad25/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-_pvlvvfl
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_a6eacfcf7a8e4d4d8976335f58d8ad25/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-_pvlvvfl/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-_pvlvvfl/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-_pvlvvfl/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-_pvlvvfl/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-_pvlvvfl/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/9b/60/f4c79e73a69ded145880bcf4f98eeed741af12c62c5ddc89b754602b1807/psycopg2-2.5.5.tar.gz#sha256=c6c330c98ab08c5639f0ccd7e211b82b3a39f001813dcea6bb824a99d2b34fe2 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.4.tar.gz (682 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_a71c250e85d64a378ff0efc8fb8edf65/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_a71c250e85d64a378ff0efc8fb8edf65/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-b3sp2mzy
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_a71c250e85d64a378ff0efc8fb8edf65/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-b3sp2mzy/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-b3sp2mzy/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-b3sp2mzy/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-b3sp2mzy/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-b3sp2mzy/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/63/c3/802668cb3cfc2880c2a8364623e7105a0257724a2612bb66ec733aaddb8c/psycopg2-2.5.4.tar.gz#sha256=24ba3f328aba08d8d505bc2a8f68a94ebe24a85e8483640b667221bc0efd3b1e (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.3.tar.gz (690 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_37a232cd5f3f4102b15ad0f228000883/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_37a232cd5f3f4102b15ad0f228000883/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-76zeehuq
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_37a232cd5f3f4102b15ad0f228000883/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-76zeehuq/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-76zeehuq/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-76zeehuq/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-76zeehuq/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-76zeehuq/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/22/fa/5ddcafc7387c1534c59eb3ffcdb9ab2af106fd3b104e6df191b6c55718af/psycopg2-2.5.3.tar.gz#sha256=3a2df3bb113187227aa97d0dd3d06e0f26be3d50dcdeeaef67fac59ed51a030a (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.2.tar.gz (685 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_232dc8f8d36b40f8b011fae9210131fe/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_232dc8f8d36b40f8b011fae9210131fe/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-pv35bo6a
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_232dc8f8d36b40f8b011fae9210131fe/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-pv35bo6a/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-pv35bo6a/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-pv35bo6a/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-pv35bo6a/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-pv35bo6a/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/c3/f3/5519551f02ae70fc51f4e608e7b44d59a408fe3264fec4afeea37b8ea317/psycopg2-2.5.2.tar.gz#sha256=50382d8703a16c3c615f328c2676f002787095925c99f0afb125a59962a5bd2e (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.1.tar.gz (684 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_821fad4a826f4dbab1d66bdfe2c65f72/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_821fad4a826f4dbab1d66bdfe2c65f72/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-skinv_cc
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_821fad4a826f4dbab1d66bdfe2c65f72/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-skinv_cc/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-skinv_cc/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-skinv_cc/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-skinv_cc/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-skinv_cc/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/22/09/63d5da7375c267e208bbadf56b51699d85cb7b3a9096817eeea500a27b3b/psycopg2-2.5.1.tar.gz#sha256=65a70c88a7e02d8bef57aab8636b5795389674c3205fd88ec46a4dffffa7efec (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.5.tar.gz (703 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_21dd590169104bf0b43bcd8a2c6a16ab/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_21dd590169104bf0b43bcd8a2c6a16ab/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-dir7j0jm
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_21dd590169104bf0b43bcd8a2c6a16ab/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-dir7j0jm/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-dir7j0jm/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-dir7j0jm/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-dir7j0jm/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-dir7j0jm/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/84/7e/7256298bf7064238e63b9380cf424f776a4d2a87e387c9a9bd1bc5ea0fbc/psycopg2-2.5.tar.gz#sha256=6b2f0cc9199de9eaa53ba10ff69b2741e73484b24657e69bdae259561c23bde4 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.6.tar.gz (667 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_ad3f228abdd74e648788149d9a56cdf1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_ad3f228abdd74e648788149d9a56cdf1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-a83f0lhu
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_ad3f228abdd74e648788149d9a56cdf1/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-a83f0lhu/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-a83f0lhu/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-a83f0lhu/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-a83f0lhu/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-a83f0lhu/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/59/aa/4d74a5dc32a89d622c1fa896a86683b488ef255f06d4b27231e12e6076f7/psycopg2-2.4.6.tar.gz#sha256=4edcb40b0a039b4b559a6bc887b2155db8b6c53d0f55b00af8338c77b725621f (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.5.tar.gz (719 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_8729c2b3c3b64888b2dc83f5e00d0266/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_8729c2b3c3b64888b2dc83f5e00d0266/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-wgnyle17
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_8729c2b3c3b64888b2dc83f5e00d0266/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-wgnyle17/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-wgnyle17/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-wgnyle17/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-wgnyle17/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-wgnyle17/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/36/77/894a5dd9f3f55cfc85682d3e6473ee5103d8d418b95baf4019fad3ffa026/psycopg2-2.4.5.tar.gz#sha256=48b702a7ca479e1bc2c1a7b81875a07d474298132605993e2cb979f5e08277d7 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.4.tar.gz (648 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_431138de612b4947a87d425d8d8b9c69/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_431138de612b4947a87d425d8d8b9c69/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ww2tq6ld
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_431138de612b4947a87d425d8d8b9c69/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ww2tq6ld/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ww2tq6ld/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ww2tq6ld/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ww2tq6ld/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ww2tq6ld/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/6f/91/890c6f954e2d09d26b266a24468570c6227de61ac6f64926c48000db0a6e/psycopg2-2.4.4.tar.gz#sha256=0c55b059d33f6b2cbb52f254320832c0ca30498ae06f4f4df2a2b38af989127e (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.3.tar.gz (647 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_216abd4331e14d8ab3ba0f6b40cb040c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_216abd4331e14d8ab3ba0f6b40cb040c/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ocu9oqh_
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_216abd4331e14d8ab3ba0f6b40cb040c/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ocu9oqh_/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ocu9oqh_/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ocu9oqh_/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ocu9oqh_/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ocu9oqh_/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/1e/71/8929172068cbc3d3c7288bf888a7df5862a28d67ed61ad9b4c7aa5cf8be8/psycopg2-2.4.3.tar.gz#sha256=febd8e35ca9904bf4418e611f866a80639fbca7db2781e5b5cd20589b767af0b (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.2.tar.gz (667 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_30762d70b8db4603a27a957cfc58ab17/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_30762d70b8db4603a27a957cfc58ab17/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-jvd835s8
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_30762d70b8db4603a27a957cfc58ab17/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-jvd835s8/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-jvd835s8/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-jvd835s8/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-jvd835s8/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-jvd835s8/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/70/91/345f8eb32dc333331510e1adad858f7a1478d3a1e4aae05ee188985c6b17/psycopg2-2.4.2.tar.gz#sha256=c5f0f853aeeefc7b2aa73b08579e5d74c4c32ad5fca87e058bf04e08273a41a1 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.1.tar.gz (398 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_bb95d7705b464379b0492628e5ad3fca/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_bb95d7705b464379b0492628e5ad3fca/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ftalzs0a
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_bb95d7705b464379b0492628e5ad3fca/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-ftalzs0a/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-ftalzs0a/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-ftalzs0a/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-ftalzs0a/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-ftalzs0a/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/82/f8/6c80beb1b58f01f52dcdfa52bc1668caa4e3fc4927e9230edc40afa98c05/psycopg2-2.4.1.tar.gz#sha256=f8ee9a4004afbd1ff1a1db8df7910475d6ec26e102aa92c9214cbeb1ef39ff49 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.4.tar.gz (607 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_b55679d8033f4649b074c173dcf2233c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_b55679d8033f4649b074c173dcf2233c/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-vypo3_rl
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_b55679d8033f4649b074c173dcf2233c/
+    Complete output (14 lines):
+    running egg_info
+    creating /tmp/pip-pip-egg-info-vypo3_rl/psycopg2.egg-info
+    writing /tmp/pip-pip-egg-info-vypo3_rl/psycopg2.egg-info/PKG-INFO
+    writing dependency_links to /tmp/pip-pip-egg-info-vypo3_rl/psycopg2.egg-info/dependency_links.txt
+    writing top-level names to /tmp/pip-pip-egg-info-vypo3_rl/psycopg2.egg-info/top_level.txt
+    writing manifest file '/tmp/pip-pip-egg-info-vypo3_rl/psycopg2.egg-info/SOURCES.txt'
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/ce/2d/e9e65ee32ef2657028109bd5a1c1ece97e409ebf790b6ee286aae2c6b890/psycopg2-2.4.tar.gz#sha256=f41623c413283f101b61ba2356f92cc1890b00308aea970124ebd6178ac5c3a5 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.3.2.tar.gz (568 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_74534f4a10774243ac8ee495b10a06b5/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_74534f4a10774243ac8ee495b10a06b5/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-savfwbdj
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_74534f4a10774243ac8ee495b10a06b5/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_74534f4a10774243ac8ee495b10a06b5/setup.py", line 247
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/50/48/32927cbc99633613704950be5013fc144aa0f451a5e0616635a934d94a62/psycopg2-2.3.2.tar.gz#sha256=0ef1df428f5482c41885ee6d9a6975473fc83af5497801abd36dd150a3754c2c (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.3.1.tar.gz (567 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_d5803428e5c64fa58035a194eeb13942/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_d5803428e5c64fa58035a194eeb13942/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-rlti2_ck
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_d5803428e5c64fa58035a194eeb13942/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_d5803428e5c64fa58035a194eeb13942/setup.py", line 247
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/cd/7c/6acf5aacd347f3dc1398eca0e2123c35a48efb07617d4d9578e9cd79a1a7/psycopg2-2.3.1.tar.gz#sha256=7aee74fb13f3b51571fa84cebeeeb29b4230e7553f554f228636c6754752c4e4 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.3.0.tar.gz (588 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_b1f35ee5d3794514aa2b33c6a7955ae4/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_b1f35ee5d3794514aa2b33c6a7955ae4/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-djghtk4v
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_b1f35ee5d3794514aa2b33c6a7955ae4/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_b1f35ee5d3794514aa2b33c6a7955ae4/setup.py", line 247
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/68/0a/459df8dcbcc118ca435e9567abceaab919706908d52139e503f6396c4935/psycopg2-2.3.0.tar.gz#sha256=c17a06b7468debba94fa151d3ad93cd885d9cbe9a751e54ceb87738d5f0478ea (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.2.2.tar.gz (530 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_3bcd84bfe8f64b3a86f6c4fa9758aef7/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_3bcd84bfe8f64b3a86f6c4fa9758aef7/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-6qehrn3m
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_3bcd84bfe8f64b3a86f6c4fa9758aef7/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_3bcd84bfe8f64b3a86f6c4fa9758aef7/setup.py", line 245
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/63/3e/a4a35761eb4595fff89e63347b4f8e79c2095782fa5bc016a6dfb18b21ac/psycopg2-2.2.2.tar.gz#sha256=21a33d5b2609103512748098a06249492cc294790e07638fadc68cf06eeac39d (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.2.1.tar.gz (529 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_a22f3beb70d24722ae6731f833bb1374/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_a22f3beb70d24722ae6731f833bb1374/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-cgjpu_4b
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_a22f3beb70d24722ae6731f833bb1374/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_a22f3beb70d24722ae6731f833bb1374/setup.py", line 239
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/de/c4/fdfb801035bd7da9e1ce98169d48ca2d6dee5b4361e349afbba40b3d7a5d/psycopg2-2.2.1.tar.gz#sha256=b0eca4e8438025dc57cacbea4e8ca2f5dc0554d41b1cdcc177757a5fc413f3d1 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.2.0.tar.gz (528 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_55064b2e44ec44f484c1d1f05afea1e4/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_55064b2e44ec44f484c1d1f05afea1e4/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-uaumk4ob
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_55064b2e44ec44f484c1d1f05afea1e4/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_55064b2e44ec44f484c1d1f05afea1e4/setup.py", line 238
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/32/0c/2f4da04ae2a66d71eff37f19fce67506ad28f887851cd1c1cca35ba08b36/psycopg2-2.2.0.tar.gz#sha256=e70a8eabc491318beef4cd9cd9245a4d8dc62ee31cb74e7988913a66bb33f858 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.0.14.tar.gz (491 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_ef38ea780ed24f3ab861dd60ba98b7c8/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_ef38ea780ed24f3ab861dd60ba98b7c8/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-uqferdf_
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_ef38ea780ed24f3ab861dd60ba98b7c8/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_ef38ea780ed24f3ab861dd60ba98b7c8/setup.py", line 238
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/e0/1c/f0843f50a69fba3db880e9b267d36f6709bbf31a36fc46b82f75e8975ede/psycopg2-2.0.14.tar.gz#sha256=902607cdbe1195a00694d2b477eed8429eda433caaa0eb6ff7f80883e1c17ac7 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.0.13.tar.gz (258 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_1449037838914cd4a9bfaa09d69f6125/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_1449037838914cd4a9bfaa09d69f6125/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-4v2lxo7v
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_1449037838914cd4a9bfaa09d69f6125/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_1449037838914cd4a9bfaa09d69f6125/setup.py", line 233
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/3a/7a/968afcb86b1958ae963a3aaa42c561e3ed2c2d4a8b773622b03856a16248/psycopg2-2.0.13.tar.gz#sha256=a15e622e101b16aa8ad44813d8fb1eced91379396c054aacbfa3ad658352332b (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.0.12.tar.gz (256 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_bf5183cebcd743fdb656c922e287c4ba/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_bf5183cebcd743fdb656c922e287c4ba/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-9jw_zlam
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_bf5183cebcd743fdb656c922e287c4ba/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_bf5183cebcd743fdb656c922e287c4ba/setup.py", line 225
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/6a/8d/ee5c330823d527a5cd14c833063f825211d7b5de6e4897f72e250c107d85/psycopg2-2.0.12.tar.gz#sha256=542c187531e756867fb60034c393b6f2beca34eeeb3ce2e0089a2b6fb8be1292 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.0.11.tar.gz (255 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_d98743c14315478a96de7323567565a8/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_d98743c14315478a96de7323567565a8/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-dqer1nkx
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_d98743c14315478a96de7323567565a8/
+    Complete output (6 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_d98743c14315478a96de7323567565a8/setup.py", line 225
+        except Warning, w:
+                      ^
+    SyntaxError: invalid syntax
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/2d/d7/496da11d7c81971870ddd36800419c4f84e8f6208aac5eabedf9f7748729/psycopg2-2.0.11.tar.gz#sha256=e6b4e0e41df97441eff34e00065376414da6488e0d55848a45cd77551dbae434 (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  Downloading psycopg2-2.0.10.tar.gz (255 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-2u2p30wd/psycopg2_bddf6c89177140adb0bebfeff0687b2c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-2u2p30wd/psycopg2_bddf6c89177140adb0bebfeff0687b2c/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-hkkf7xip
+         cwd: /tmp/pip-install-2u2p30wd/psycopg2_bddf6c89177140adb0bebfeff0687b2c/
+    Complete output (5 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-2u2p30wd/psycopg2_bddf6c89177140adb0bebfeff0687b2c/setup.py", line 50, in <module>
+        import ConfigParser
+    ModuleNotFoundError: No module named 'ConfigParser'
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/19/79/35c7596bab4456f3610c12ec542a94d51c6781ced587d1d85127210b879b/psycopg2-2.0.10.tar.gz#sha256=e40cc04b43849085725076ae134bfef9e3b087f6dd7c964aeeb930e2f0bc14ab (from https://pypi.org/simple/psycopg2/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement psycopg2
+ERROR: No matching distribution found for psycopg2
+[8mha:////4ENDoBnF9+x0c/ZOw9fVW5WsILxvHIKdicZbDII22N52AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4N4Ym1rzh6BO39zxMPBzkihWmPEeMMAYv4tKp7fA+79CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CHI0XzFDqio8dobEQAfzCn/27khyUO0KmC4idvU8wGLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+ERROR: uh oh
+ERROR: script returned exit code 1
+[8mha:////4Hu7M3NNN/0aP8Jn9D6oASWqw9xsH1rsq1KHe5JOas4VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // catchError
+[8mha:////4IOIKhcfk9L6GYuHW8TRH3GFNccz2Pz0zjPhCcFVl2PlAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRaBEVreWGF5jEGDvWnbEvJBUv4mv8AYtIVGyx2tlmXm9Y5wRHSlZ4g4PD3DkRw2jLEhOl4RpoEp4uoiPMFIxQZlLUm9OCitjAkqqGlYSNwS5QdmgZttLrh26CRtucOZXvIKF2/R2eUMliZp34C3OC3W3sM+HP81cAc4wM9b4t1bYfF15Zm74AAAA=[0m[Pipeline] }
+[8mha:////4LLJyNlDP+RhOaKCNA1Fa5Dgoa8aXmKPDcQHFGmCsha3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlHWd67D/AC8cymq+AAAA[0m[Pipeline] // stage
+[8mha:////4DckswMVdIv4l9TQ3EHkNa5FoHQfXJEoWQ47kk+IWHvLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjAR2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INhYxW5sEAAAA=[0m[Pipeline] stage
+[8mha:////4LoYq04xnrOfV2p3My8Qe+1KACJCoTjieLHYVb+VtnrDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (reporting)
+[8mha:////4KjdqEmDXTjc/+EOuq27uIbxoyyUfvCMSDt0H6CZH5AAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] allure
+[web-ui automation tests] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allurecommandline/bin/allure generate "/var/jenkins_home/workspace/web-ui automation tests/ALLURE-RESULTS" -c -o "/var/jenkins_home/workspace/web-ui automation tests/allure-report"
+Report successfully generated to /var/jenkins_home/workspace/web-ui automation tests/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+[8mha:////4BUmSyj4pFcxANkYi1o9e+xEjEZsIqvbL66Auf3qQhsaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4CryFSnph2EDC2hgeqxGLs1l0f6ygkt/vlabgRPuqsxuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4E6dy+UtgXg3US8palUES1256KZbYQ9rGf8xDS1rfRirAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4IrH93/vbCmjvYNcs1YPOUNFguQ287yx3bUjJY3rLutrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4LaLqwRoq77MoPuuJOreaVMpABneoD9uleRW0Tg5/jmcAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+Finished: UNSTABLE

@@ -1,0 +1,10 @@
+commit 5c53bc572bd73956a85a2bae54b9bba45a6de35b
+tree 8e4b931e62b7eacf0493fb1dc04f723bfc4aacec
+parent 02cd6361c01070ca88a5d09471e8c4766439bb61
+author Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 21:40:34 +0300
+committer Fatalwgx <nothingfatalleo@gmail.com> 2023-06-12 21:40:34 +0300
+
+    prefix test_ added to user actions module
+
+
+:100644 100644 d8e76d9af906d615869618268fcc4c00c3e72bf3 d8e76d9af906d615869618268fcc4c00c3e72bf3 R100	tests/api/user/user_actions.py	tests/api/user/test_user_actions.py

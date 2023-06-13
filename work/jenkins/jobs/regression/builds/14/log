@@ -1,0 +1,122 @@
+Started by user [8mha:////4Maezfk0JbHDzak4BfSdZmgwP4IA8xVqOrqfKRXTMeqbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4KRo0YmmwtC2y6yPDiNjzM5sfeXF5Vp/3whR1HckqUrwAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Hpqw+HJtSJOYxqblEvzq25+39uAue/8cP6aI45kCxT9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IoS6Q6HEmADU0+DF7n0QTp/dLGB5vjQX3rtbzxAHVkqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/jenkins_home/workspace/regression
+[8mha:////4N7pT5rmqmbLvcSM/83ZQbUOFRSgurB9IZiC2xYdP+2yAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HieURhCKaY8XeTlYcVKy4MN28X/fW/Ye6Dg9+NNb90uAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4G7vxwlo8zq62UeiqVhB7jY1RFzjOZMgZSrhtusUQqxXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (checkout)
+[8mha:////4LFsx75kGytnbGiDi+2IyQdeVDV2QftKxw5qohZPvFJrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Fatalwgx/cvwebsite-automation-tests
+ > git init /var/jenkins_home/workspace/regression # timeout=10
+Fetching upstream changes from https://github.com/Fatalwgx/cvwebsite-automation-tests
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Fatalwgx/cvwebsite-automation-tests +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Fatalwgx/cvwebsite-automation-tests # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 36b3f96ecc4a48b1b1f7f8793c2d4239bc9347b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36b3f96ecc4a48b1b1f7f8793c2d4239bc9347b0 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 36b3f96ecc4a48b1b1f7f8793c2d4239bc9347b0 # timeout=10
+Commit message: "attempt at fixing reruns due to inital run failure, removed sleep from before attachments which was used to debug video logging"
+ > git rev-list --no-walk 36b3f96ecc4a48b1b1f7f8793c2d4239bc9347b0 # timeout=10
+[8mha:////4OTvoH0qmSkW0AUK+EqLJib4CDbM0uMYmDNBmnGEyOgqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4M+bWZwGAe5LdF6zWKAg50C+4LHxMjq7KswGa3lAQsnrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Gz4pYzjVO1aPtie40eio3FcL+piICEb2nKXwcZEPyjXAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4ObIJr3HdheyVxK+2JTu/ob8/daHGKVQEe3DD/LeCEC7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (test execution)
+[8mha:////4OObxBGyuy1JZHcZaNho0Is0ror225rCMqadiaP4QzAuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] catchError
+[8mha:////4Py6D/CR3LLlm1zFJXvEFDJC4JGLqhbLlJeGXBLwMXu5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4CWE7Mw4OZfT8tQFVOl+mVfJcQAw4loijL+Wlp9O0j7gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4Be7rTsGO97Ny84DuDnr5Tkvuy0aDdXq68b3AnE5HrfiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4IZ8Vqo3iN4RFK0UuvqBzt8rnePiRkqoBHTpHHq1o0R/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ pip install -r requirements.txt
+Requirement already satisfied: pytest in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 1)) (7.3.2)
+Requirement already satisfied: allure-pytest==2.12.0 in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 2)) (2.12.0)
+Requirement already satisfied: selene>=2.0.0b5 in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 3)) (2.0.0rc2)
+Requirement already satisfied: python-dotenv==0.20.0 in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 4)) (0.20.0)
+Requirement already satisfied: pydantic in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 5)) (1.10.9)
+Requirement already satisfied: faker in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 6)) (18.10.1)
+Requirement already satisfied: sqlalchemy in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 7)) (2.0.16)
+Requirement already satisfied: psycopg2-binary in /usr/local/lib/python3.9/dist-packages (from -r requirements.txt (line 8)) (2.9.6)
+Requirement already satisfied: allure-python-commons==2.12.0 in /usr/local/lib/python3.9/dist-packages (from allure-pytest==2.12.0->-r requirements.txt (line 2)) (2.12.0)
+Requirement already satisfied: six>=1.9.0 in /usr/local/lib/python3.9/dist-packages (from allure-pytest==2.12.0->-r requirements.txt (line 2)) (1.16.0)
+Requirement already satisfied: pluggy>=0.4.0 in /usr/local/lib/python3.9/dist-packages (from allure-python-commons==2.12.0->allure-pytest==2.12.0->-r requirements.txt (line 2)) (1.0.0)
+Requirement already satisfied: attrs>=16.0.0 in /usr/local/lib/python3.9/dist-packages (from allure-python-commons==2.12.0->allure-pytest==2.12.0->-r requirements.txt (line 2)) (23.1.0)
+Requirement already satisfied: iniconfig in /usr/local/lib/python3.9/dist-packages (from pytest->-r requirements.txt (line 1)) (2.0.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.9/dist-packages (from pytest->-r requirements.txt (line 1)) (23.1)
+Requirement already satisfied: tomli>=1.0.0 in /usr/local/lib/python3.9/dist-packages (from pytest->-r requirements.txt (line 1)) (2.0.1)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in /usr/local/lib/python3.9/dist-packages (from pytest->-r requirements.txt (line 1)) (1.1.1)
+Requirement already satisfied: future in /usr/local/lib/python3.9/dist-packages (from selene>=2.0.0b5->-r requirements.txt (line 3)) (0.18.3)
+Requirement already satisfied: webdriver-manager>=3.8.5 in /usr/local/lib/python3.9/dist-packages (from selene>=2.0.0b5->-r requirements.txt (line 3)) (3.8.6)
+Requirement already satisfied: selenium>=4.4.3 in /usr/local/lib/python3.9/dist-packages (from selene>=2.0.0b5->-r requirements.txt (line 3)) (4.10.0)
+Requirement already satisfied: typing-extensions==4.3.0 in /usr/local/lib/python3.9/dist-packages (from selene>=2.0.0b5->-r requirements.txt (line 3)) (4.3.0)
+Requirement already satisfied: certifi>=2021.10.8 in /usr/local/lib/python3.9/dist-packages (from selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (2023.5.7)
+Requirement already satisfied: trio~=0.17 in /usr/local/lib/python3.9/dist-packages (from selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (0.22.0)
+Requirement already satisfied: urllib3[socks]<3,>=1.26 in /usr/local/lib/python3.9/dist-packages (from selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (2.0.3)
+Requirement already satisfied: trio-websocket~=0.9 in /usr/local/lib/python3.9/dist-packages (from selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (0.10.3)
+Requirement already satisfied: async-generator>=1.9 in /usr/local/lib/python3.9/dist-packages (from trio~=0.17->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (1.10)
+Requirement already satisfied: outcome in /usr/local/lib/python3.9/dist-packages (from trio~=0.17->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (1.2.0)
+Requirement already satisfied: sniffio in /usr/local/lib/python3.9/dist-packages (from trio~=0.17->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (1.3.0)
+Requirement already satisfied: sortedcontainers in /usr/local/lib/python3.9/dist-packages (from trio~=0.17->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (2.4.0)
+Requirement already satisfied: idna in /usr/local/lib/python3.9/dist-packages (from trio~=0.17->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (3.4)
+Requirement already satisfied: wsproto>=0.14 in /usr/local/lib/python3.9/dist-packages (from trio-websocket~=0.9->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (1.2.0)
+Requirement already satisfied: pysocks!=1.5.7,<2.0,>=1.5.6 in /usr/local/lib/python3.9/dist-packages (from urllib3[socks]<3,>=1.26->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (1.7.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.9/dist-packages (from webdriver-manager>=3.8.5->selene>=2.0.0b5->-r requirements.txt (line 3)) (2.31.0)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.9/dist-packages (from webdriver-manager>=3.8.5->selene>=2.0.0b5->-r requirements.txt (line 3)) (4.65.0)
+Requirement already satisfied: h11<1,>=0.9.0 in /usr/local/lib/python3.9/dist-packages (from wsproto>=0.14->trio-websocket~=0.9->selenium>=4.4.3->selene>=2.0.0b5->-r requirements.txt (line 3)) (0.14.0)
+Requirement already satisfied: python-dateutil>=2.4 in /usr/local/lib/python3.9/dist-packages (from faker->-r requirements.txt (line 6)) (2.8.2)
+Requirement already satisfied: greenlet!=0.4.17 in /usr/local/lib/python3.9/dist-packages (from sqlalchemy->-r requirements.txt (line 7)) (2.0.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.9/dist-packages (from requests->webdriver-manager>=3.8.5->selene>=2.0.0b5->-r requirements.txt (line 3)) (3.1.0)
+[8mha:////4LOrZijN8SjwKK+atj8jc0QLLqYAXCjHjM5EE6Jh4E33AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ pytest ./tests/ --alluredir=allure-results
+============================= test session starts ==============================
+platform linux -- Python 3.9.2, pytest-7.3.2, pluggy-1.0.0
+rootdir: /var/jenkins_home/workspace/regression
+configfile: pytest.ini
+plugins: allure-pytest-2.12.0, Faker-18.10.1
+collected 20 items
+
+tests/api/user/test_user_actions.py ..........                           [ 50%]
+tests/web-ui/test_cv.py ...                                              [ 65%]
+tests/web-ui/test_e2e_slot_spin.py .                                     [ 70%]
+tests/web-ui/test_files.py ......                                        [100%]
+
+=============================== warnings summary ===============================
+cvwebsite_tests/model/db/postgres.py:12
+  /var/jenkins_home/workspace/regression/cvwebsite_tests/model/db/postgres.py:12: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    Base = declarative_base()
+
+tests/web-ui/test_cv.py: 3 warnings
+tests/web-ui/test_e2e_slot_spin.py: 1 warning
+tests/web-ui/test_files.py: 6 warnings
+  /usr/local/lib/python3.9/dist-packages/selene/core/configuration.py:939: DeprecationWarning: Was deprecated because "browser" term is not relevant to mobile context. Use `config.hold_driver_at_exit = ...` instead
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 20 passed, 11 warnings in 50.74s =======================
+[8mha:////4PYh1nrBp0Ke7nem1KkZTVTuxoV7V5M4y3r6AP50iEo2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4Kr6c1ieNOed/9pDEHlXtx7Ij8XaJ70NFtS0CozEi5/wAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NPOzu3DGzgcA70XUhq7uvX5gWR1yZvFiyo9qkOtEqDfAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPp7sC76+AAAA[0m[Pipeline] }
+[8mha:////4EMWgRQHnyaeAUJrz57agTHpa9zzQvUdUsW1Y6WI+5D5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZ1rrr5AK0PUAK+AAAA[0m[Pipeline] // catchError
+[8mha:////4Lxkc17notbN5mlU+EM9iq+Un/WWgJQwhkGIM1d1dNUWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4NfKmnvR6+1F0qrvH2sYL1rMuxWaAk8ctIMCrDGIq56iAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // stage
+[8mha:////4OA3HNNRNCKJnML2fMY3IzXj7qU3VIe1+Q331SxJS6uJAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjoXSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INPbxT+8EAAAA=[0m[Pipeline] stage
+[8mha:////4D5//NC5ocmGb8RUUd9svHmGr86n+ZDEcTCvM4WVGvnZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (reporting)
+[8mha:////4JuNnUgDGW68baQdR11dZFNnddjrHy0LeS58uMWe3wgfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] allure
+[regression] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allurecommandline/bin/allure generate /var/jenkins_home/workspace/regression/ALLURE-RESULTS -c -o /var/jenkins_home/workspace/regression/allure-report
+Report successfully generated to /var/jenkins_home/workspace/regression/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+[8mha:////4E+JxuyKZDZiFUOxMrdJK+DXjWzXY+ib7HQ+glLZAW40AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4Nd3BLD0iCQK+hntv4KfQfhaIwtsRg+ArbZAeTqrpMoOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HqQB7mJqiE6wHlAzt0zz8hJm5L3sHm2e3QUOgzKSqgZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AFo7wVm9AAAA[0m[Pipeline] }
+[8mha:////4HLTR7gc/XcwLAsjTJjR65WexGIfOYQau2x++94TCEZyAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KYMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR8tH+kBvQAAAA==[0m[Pipeline] // node
+[8mha:////4GmAOaxtQYGV9iOzDGKIjZLnSwJ8yM40JIYp/CIGOefOAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T4LBo5LvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
